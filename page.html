@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML Basics</title>
+  </head>
+
+  <body>
+    <h1>
+      <p>My Content: By Pablo!</p>
+    </h1>
+    <h2>Text</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem
+      corporis officiis veritatis temporibus id, molestiae facilis eos
+      aspernatur! Quasi maiores itaque officia voluptatem hic qui vero? Neque,
+      eveniet dolorem!
+    </p>
+
+    <h2>Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Surname</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Campion</td>
+          <td>Pab</td>
+        </tr>
+        <tr>
+          <td>Mortimer</td>
+          <td>Bob</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Merge Cells</h2>
+
+    <table border="1">
+      <tr>
+        <td>Items</td>
+        <td>Price Morning</td>
+        <td>Price Afternoon</td>
+      </tr>
+
+      <tr>
+        <td>Ski Pass</td>
+        <td>€45</td>
+        <td>€50</td>
+      </tr>
+      <tr>
+        <td>Ski Rental</td>
+        <td>€25</td>
+        <td>€30</td>
+      </tr>
+      <tr>
+        <td>Ski Boots</td>
+        <td>€15</td>
+        <td>€20</td>
+      </tr>
+      <tr>
+        <td>Spa Day</td>
+        <td colspan="2" rowspan="2">€50</td>
+      </tr>
+    </table>
+
+    <h2>Image</h2>
+    <img
+      src="https://images.unsplash.com/photo-1597748461449-ae2afb3d8822?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+      alt="technology"
+    />
+
+    <h2>Video</h2>
+
+    <video controls width="500">
+      <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+
+      <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <h2>Links</h2>
+    <a href="https://validator.w3.org/">https://validator.w3.org</a>
+    <br />
+    <a href="https://unsplash.com/">https://unsplash.com</a>
+
+    <h2>Forms</h2>
+    <form action="" method="get">
+      Gender: <input type="radio" name="" id="" />M
+      <input type="radio" name="" id="" />F <br />
+      Name:
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter Your Name..."
+      />
+      <br />
+      Email:
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="Enter Your Email..."
+      />
+      <br />
+      Password: <input type="password" /> <br />
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Enter Your Comments"
+      ></textarea>
+      <br />
+      <button type="submit">Go</button>
+    </form>
+
+    <h2>Difference between Span & Div</h2>
+    <p>My content displays a Block:</p>
+    <div>
+      <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+      molestias aut, reiciendis tempore porro corrupti incidunt commodi eaque
+      nulla ipsum repellat, quis tempora modi illum odio ullam aliquam totam
+      expedita.
+    </div>
+    After the Block...
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      <span
+        >Placeat dolore qui itaque nemo doloribus ab eius deleniti, in, sequi
+        esse ipsa quas officia nesciunt exercitationem.</span
+      >
+      Autem nostrum dolore dolorum dignissimos?
+    </p>
+
+    <section id="flex">
+      <h2>FlexBox</h2>
+      <div class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+    </section>
+  </body>
+</html>

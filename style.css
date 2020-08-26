@@ -1,0 +1,90 @@
+body {
+    color: aliceblue;
+    background-color: black;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* align-content: center;
+    justify-items: center;
+    justify-content: center; */
+}
+
+nav li {
+    padding: 35px;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+.slogan {
+    height: 100vh;
+    background-image: url(http://i.ytimg.com/vi/8l4a6H1wC7M/maxresdefault.jpg);
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.films {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+tbody {
+    text-align: center;   
+}
+
+.find {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact {
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+#flex {
+    background-color: aquamarine;
+    min-height: 100vh;
+}
+
+#flex div {
+    background-color: aliceblue;
+    width: 25%;
+    height: 100px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+}
